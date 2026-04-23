@@ -1,0 +1,47 @@
+name: coachbotai
+services:
+  app-coachbotai:
+    image: $IMAGE_TAG
+    container_name: app-coachbotai
+    restart: always
+    environment:
+      - NEXT_PUBLIC_BASE_URL=${NEXT_PUBLIC_BASE_URL}
+    env_file:
+      - .env_app
+    networks:
+      - custom-network
+
+  nginx-proxy:
+    image: nginx:1.26-alpine-slim
+    container_name: nginx-proxy
+    restart: unless-stopped
+    depends_on:
+      - app-coachbotai
+    volumes:
+      - /home/deploy/coachbotai/letsencrypt:/etc/letsencrypt/:ro
+      - webroot:/var/www/html/
+      - /home/deploy/coachbotai/nginx_revers_proxy.conf:/etc/nginx/nginx.conf:ro
+    networks:
+      - custom-network
+    ports:
+      - 80:80
+      - 443:443
+
+  certbot:
+    image: certbot/certbot:v2.11.0
+    container_name: certbot
+    depends_on:
+      - nginx-proxy
+    volumes:
+      - ./letsencrypt:/etc/letsencrypt/
+      - webroot:/var/www/html/
+    networks:
+      - custom-network
+    command: certonly --webroot -w /var/www/html/ --email info@coachbot.ai --cert-name ${DOMAIN_NAME} -d ${DOMAIN_NAME} --agree-tos --no-eff-email --non-interactive
+
+networks:
+  custom-network:
+    name: custom-network
+
+volumes:
+  webroot:

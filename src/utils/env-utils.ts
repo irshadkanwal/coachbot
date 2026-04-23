@@ -1,0 +1,1 @@
+export const isLowerEnv = (envUrl: string) => ['dev.', 'stage.', 'localhost'].some(env => envUrl.includes(env));

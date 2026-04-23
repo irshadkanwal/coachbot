@@ -1,0 +1,7 @@
+# .estlintignore file
+.next
+dist
+node_modules/
+prisma/migrations
+public
+.env

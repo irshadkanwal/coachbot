@@ -1,0 +1,1269 @@
+{
+  "Landing": {
+    "Hero": {
+      "userLogoAlt": "Logo utilisateur",
+      "mobilePhoneImageAlt": "Image de téléphone portable",
+      "title": "Faites évoluer la croissance humaine avec une IA responsable. <yellow>Construit par des coaches. Créé pour l'impact. Fait confiance par les organisations.</yellow>",
+      "subtitle": "Nous agissons en tant que partenaire IA-first pour les coaches et les entreprises, afin que vous puissiez vous concentrer sur ce que vous faites de mieux : transformer les personnes et les organisations.",
+      "messages": {
+        "0": "Salut Alex, qu'avez-vous en tête aujourd'hui ?",
+        "1": "J'aimerais améliorer ma routine de sommeil.",
+        "2": "Ça a l'air super ! Dites-m'en plus.",
+        "3": "Je me réveille souvent la nuit et j'ai du mal à me rendormir.",
+        "4": "Oh, je peux imaginer que cela soit difficile. Je suis sûr que nous pouvons arranger cela. Commençons ! D'abord, parlez-moi de votre routine de coucher actuelle."
+      },
+      "testForFreeButton": "Testez gratuitement"
+    },
+    "Features": {
+      "title": "Votre coaching grandit <yellow>ici.</yellow>",
+      "subtitle": "Notre solution transforme vos cadres de coaching en <yellow>systèmes d'IA conversationnels personnalisés et centrés sur l'humain</yellow>. Sécurisé, transparent et prêt à l'échelle.",
+      "items": {
+        "0": {
+          "name": "Synergie Humain + IA",
+          "description": "Le coaching amplifié, pas remplacé. Vos cadres, programmes, voix et valeurs prennent vie grâce à une IA responsable."
+        },
+        "1": {
+          "name": "Responsable par conception",
+          "description": "Conforme au RGPD. Basé sur le consentement. Entièrement crypté. </br>CoachBot vous donne un contrôle total, la transparence et la tranquillité d'esprit"
+        },
+        "2": {
+          "name": "Impact évolutif",
+          "description": "Concevez une fois. Livrez n'importe où, à chaque coach, client, organisation ou membre de l'équipe."
+        },
+        "3": {
+          "name": "Parcours personnalisés",
+          "description": "La croissance guidée par la mémoire garantit que les progrès de chaque utilisateur se sentent personnels et continus dans le temps."
+        }
+      },
+      "startFreeButton": "S'inscrire maintenant",
+      "noCreditCardLabel": ""
+    },
+    "Reviews": {
+      "title": "Écoutez nos<yellow> Utilisateurs</yellow>",
+      "subtitle": "Découvrez ce que nos clients satisfaits ont à dire sur leurs expériences avec notre produit.",
+      "items": {
+        "0": {
+          "text": "« Il m'a fallu un certain temps pour trouver un compagnon IA adapté. CoachBot AI est un outil auquel je peux faire confiance étant donné qu'il met l'accent sur la sécurité des données, ce qui est très important pour moi 🛡️ Aujourd'hui, je suis un utilisateur satisfait et je me sens en confiance pour l'utiliser sur tous mes appareils et sur Whatsapp. »",
+          "name": "Michelle Gänswein",
+          "position": "Responsable Marketing Junior"
+        },
+        "1": {
+          "text": "« Jamais je n’aurais imaginé qu’un outil d’IA soit aussi efficace. Parfois, je me demande si je parle à une IA ou à un vrai humain ! J’adore 💛. »",
+          "name": "Tristan Kazmierczak",
+          "position": "Entrepreneur immobilier"
+        },
+        "2": {
+          "text": "« En tant que coach professionnel moi-même, je suis toujours curieux de voir comment l'IA peut offrir des interactions de coaching de qualité. L'approche hybride de Coachbot, combinant experts humains et IA, est franchement fantastique ! »",
+          "name": "Anna-Elena Mancini",
+          "position": "Responsable des Opérations Produit"
+        },
+        "3": {
+          "text": "« J'utilise CoachBot quotidiennement via Whatsapp. Il m'aide à relever tous types de défis, petits ou grands. Il comprend toujours à un niveau profond et professionnel les sujets que j'aborde et m'aide à adopter des perspectives intéressantes que je n'avais pas explorées auparavant, un outil formidable et efficace ! »",
+          "name": "Daniel Cifuentes",
+          "position": "Chargée de compte @ Codelitt"
+        },
+        "4": {
+          "text": "« En tant que coach professionnel moi-même, je suis toujours curieux de voir comment l'IA peut offrir des interactions de coaching de qualité. L'approche hybride de Coachbot, combinant experts humains et IA, est franchement fantastique ! »",
+          "name": "Chris Klug",
+          "position": "Responsable des ventes @ Google"
+        },
+        "5": {
+          "text": "« J’utilise CoachBot depuis quelques mois et c’est devenu l’un de mes meilleurs alliés pour gérer mon bien-être personnel et acquérir de nouvelles perspectives sur des défis complexes. Le suivi des progrès m’aide particulièrement à rester sur la bonne voie, quelle que soit l’intensité de mon activité. »",
+          "name": "Thomas Lübeck",
+          "position": "Consultant en stratégie chez E&Y"
+        },
+        "6": {
+          "text": "« LifeVision est devenu un outil essentiel pour gérer ma vie. CoachBot me met constamment au défi de savoir où et comment atteindre le niveau supérieur ! »",
+          "name": "Ba Khai Tran",
+          "position": "Entrepreneur en technologie"
+        },
+        "7": {
+          "text": "« En tant que père de famille et en pleine croissance professionnelle, ma vie peut parfois être trop chargée et écrasante. CoachBot est toujours là pour m'aider à y voir clair et me mettre au défi sur ma concentration et mes prochaines étapes. »",
+          "name": "Thomas Knorr",
+          "position": "Responsable d'agence BI"
+        }
+      }
+    },
+    "FAQ": {
+      "sectionTitle": "Questions fréquemment posées<yellow> Questions</yellow>",
+      "subtitle": "Tout ce que vous devez savoir sur CoachBot. Vous ne trouvez pas la réponse que vous cherchez ? N'hésitez pas à <link>nous contacter</link>.",
+      "items": {
+        "0": {
+          "question": "Qu'est-ce que CoachBot Studio ?",
+          "answer": "CoachBot Studio est une plateforme sans code qui vous permet de créer vos propres agents de coaching IA (CoachBots) basés sur votre voix, vos méthodes et votre propriété intellectuelle. Ces agents peuvent automatiser des tâches qui nécessitaient auparavant votre temps personnel - telles que l'intégration, les suivis ou les vérifications de progrès. Dans le cadre d'une expérience hybride IA + humain, les CoachBots vous aident à fournir des programmes de coaching ou de formation structurés à grande échelle tout en rendant l'expérience encore plus personnelle."
+        },
+        "1": {
+          "question": "Pour qui est CoachBot ?",
+          "answer": "CoachBot est conçu pour les coaches professionnels, les mentors, les formateurs, les équipes L&D et les dirigeants d'organisations qui souhaitent faire évoluer le développement personnel et l'apprentissage avec une IA responsable - sans remplacer le contact humain."
+        },
+        "2": {
+          "question": "Comment fonctionne CoachBot ?",
+          "answer": "CoachBot est alimenté par notre moteur CORA multi-agents (Algorithme de raisonnement orienté coach), qui permet des conversations de coaching structurées et mesurables. Vous pouvez définir votre ton, vos critères de succès et votre flux conversationnel - puis déployer vos CoachBots sur des plateformes comme le web, WhatsApp ou les intégrer directement dans vos applications."
+        },
+        "3": {
+          "question": "CoachBot est-il sûr et conforme ?",
+          "answer": "Oui. CoachBot est entièrement conforme au RGPD, hébergé dans l'UE et aligné sur la loi européenne sur l'IA. Nous n'affinons jamais les modèles sur vos données ou celles de vos clients, donc votre propriété intellectuelle et la confidentialité des utilisateurs restent entièrement protégées. Le consentement, la transparence et la conception éthique sont des principes fondamentaux de notre plateforme - nous évitons délibérément l'IA anthropomorphisée ou les boucles de comportement axées sur l'engagement."
+        },
+        "4": {
+          "question": "En quoi est-ce différent des autres outils IA ?",
+          "answer": "Contrairement aux bots IA génériques ou aux clones, CoachBot a été construit spécifiquement pour le coaching et l'apprentissage adaptatif. Il se concentre sur des parcours de transformation structurés, éthiques et mesurables - alimentés par l'IA, guidés par les humains."
+        }
+      }
+    },
+    "HumanCoachBlock": {
+      "title": "Accès transparent aux coachs humains",
+      "description": "Connectez-vous facilement à des coachs humains certifiés. Notre mise en relation intelligente vous permet de trouver la personne qui vous convient en fonction de vos besoins.\nvotre budget et vos besoins.",
+      "ctaTitle": "Entraîneurs intéressés par un partenariat ?",
+      "buttonTitle": "Inscrivez-vous ici !"
+    },
+    "NewsLetter": {
+      "title": "<yellow>Restez à l'écoute pour</yellow> mises à jour",
+      "description": "Recevez les dernières actualités sur le développement personnel et CoachBot AI.",
+      "inputPlaceholder": "Saisissez votre adresse e-mail",
+      "successMessage": "Inscription réussie!",
+      "errorMessage": "Erreur lors de l'inscription. Merci de réessayer !"
+    },
+    "Pricing": {
+      "title": "<yellow>Choisissez votre plan de coaching idéal</yellow> pour élever votre parcours de croissance",
+      "action": "Commencer maintenant"
+    },
+    "StudioPricing": {
+      "title": "<yellow>Trouvez Votre Plan de Croissance Idéal</yellow>pour Transformer le Succès de Votre Entreprise"
+    },
+    "Blog": {
+      "title": "<yellow>CoachBot Blog:</yellow> Votre guide pour l'amélioration personnelle",
+      "description": "Ici, vous trouverez des conseils précieux, des stratégies et de l'inspiration pour le développement personnel, la réalisation d'objectifs et un coaching efficace. Découvrez comment améliorer votre vie avec des outils pratiques et des insights profonds.",
+      "inputPlaceholder": "Rechercher des articles",
+      "searchButton": "Rechercher",
+      "viewMoreButton": "Voir plus",
+      "card": {
+        "unknownArtist": "Artiste inconnu",
+        "startReading": "Commencer la lecture",
+        "readingTime": "Temps de lecture",
+        "author": "Auteur"
+      },
+      "categories": {
+        "allPostTitle": "Tous les articles"
+      }
+    },
+    "BlogPost": {
+      "tableContent": "Table des Matières",
+      "banner": {
+        "title": "Faites le premier pas vers un meilleur vous",
+        "description": "Fixez des objectifs, gagnez en clarté et accomplissez plus que vous n'auriez jamais cru possible. Commencez votre parcours de coaching aujourd'hui et transformez votre avenir !",
+        "buttonTitle": "Coachez-moi"
+      },
+      "freshArticles": "<yellow>Articles</yellow> Récents",
+      "socialShareTitle": "Partagez cet article et inspirez les autres !",
+      "browseAllButton": "Parcourir tout"
+    },
+    "Statistics": {
+      "items": {
+        "0": {
+          "title": "Taux de réussite",
+          "description": "Grâce à notre formule magique de technologie + soutien d'experts humains.",
+          "value": "93%"
+        },
+        "1": {
+          "title": "Les utilisateurs recommandent",
+          "description": "+90% des utilisateurs considèrent CoachBot comme un changement de jeu pour leur croissance commerciale.",
+          "value": "9/10"
+        },
+        "2": {
+          "title": "Heures d'expertise",
+          "description": "Bénéficiez de plus de 15 000 heures d'expertise en coaching et en apprentissage combinées dans nos CoachBots.",
+          "value": "15,000+"
+        }
+      },
+      "sectionTitle": "Comment prouvons-nous la valeur ?"
+    },
+    "Studio": {
+      "heroTitle": "Coaching IA de Qualité\n - conçu par des Coachs",
+      "heroDescription": "Une IA qui améliore - sans jamais remplacer - l'expertise humaine. Construit sur des principes éthiques de premier plan pour stimuler l'acquisition de clients, l'engagement et la croissance commerciale.",
+      "challenges": {
+        "0": {
+          "title": "Acquérir de Nouveaux Clients",
+          "description": "Atteindre et convertir des clients hautement qualifiés prend du temps. Beaucoup peinent à se développer au-delà des réseaux sociaux et des recommandations."
+        },
+        "1": {
+          "title": "Trop Occupé pour Vraiment Coacher",
+          "description": "Les tâches administratives, la création de contenu et les suivis consomment votre temps, réduisant votre capacité à vous concentrer sur un coaching à fort impact."
+        },
+        "2": {
+          "title": "Perdre des Clients Trop Tôt",
+          "description": "Sans points de contrôle structurés, jeux de rôle et suivi des objectifs, les clients se désengagent tôt, conduisant à une rétention plus faible."
+        },
+        "3": {
+          "title": "La Mise à l'Échelle Semble Inaccessible",
+          "description": "Plus de clients signifie plus de travail. Le coaching 1:1 limite la croissance, et monétiser les connaissances au-delà des séances en direct est difficile."
+        }
+      },
+      "challengesHeader": "Ce avec quoi les <yellow>coaches luttent</yellow> le plus",
+      "changesTitle": "L'avenir du coaching commence ici",
+      "changesQuote": "« Le coaching consiste à créer des transformations—pas à rester coincé dans des tâches répétitives. L'IA peut augmenter votre expertise, vous aidant à atteindre plus de clients, gagner du temps et amplifier votre impact. »",
+      "changesAuthor": "Lewin Keller",
+      "changesAuthorRole": "Fondateur de CoachBot AI",
+      "studioTitle": "Gardez une Longueur d'Avance avec le Coaching Alimenté par l'IA",
+      "studioSubtitle": "Coach AI Studio vous aide à attirer, engager et fidéliser les clients sans effort. Des check-ins automatisés aux suivis structurés, en passant par les simulations de jeux de rôle et l'auto-supervision, votre coach IA s'assure que chaque client reste soutenu, responsable et engagé—pour que vous puissiez vous concentrer sur ce que vous faites le mieux.",
+      "coachesReviews": {
+        "title": "Voyez la différence",
+        "description": "Coach AI Studio aide déjà les professionnels de la croissance comme vous :",
+        "items": {
+          "0": {
+            "text": "« Il ne fait aucun doute que Coach AI Studio est l'une des plateformes les plus prometteuses pour les expériences de coaching par IA. Sa combinaison inégalée de facilité d'utilisation, de normes de conformité les plus élevées et de haut niveau de qualité des conversations de coaching, intégrant les meilleures normes du secteur, est exactement ce que le marché attend. »",
+            "name": "Rébecca Rutschmann",
+            "position": "Fondateur de Viva La Coaching"
+          },
+          "1": {
+            "text": "« La plateforme est super intuitive et il est incroyablement facile de créer votre propre agent. La qualité est incroyable. J'ai hâte de l'intégrer à mon site Web et sur CoachBot pour atteindre de nouveaux clients. »",
+            "name": "Bjoern Schaefer",
+            "position": "GTM Conseiller & Auteur à Succès"
+          },
+          "2": {
+            "text": "\"L'IA transforme le paysage du coaching— en tant que coach, mon objectif n'est pas d'être submergée par ce changement, mais de le façonner activement en promouvant des solutions éthiques et légalement conformes. Dans ma conversation avec Lewin, je me suis sentie vraiment comprise—sans battage médiatique, sans alarmisme, mais avec une approche claire basée sur les valeurs qui construit la confiance.\"",
+            "name": "Dr. Christine Vitzthum",
+            "position": "CEO 2TOP & Doctorate in Coaching"
+          },
+          "3": {
+            "text": "CoachBot Studio me permet de me sentir comme un entrepreneur en coaching complet. Il me donne les outils nécessaires pour créer et tester des agents de coaching IA de A à Z, rapidement, intuitivement et efficacement. Je peux désormais monétiser mes connaissances de manière innovante tout en créant un impact durable.",
+            "name": "Arthur Jones",
+            "position": "Coach en leadership, ancien responsable marketing et auteur"
+          },
+          "4": {
+            "text": "CoachBot Studio n'est pas une simple plateforme d'IA : elle a été conçue par des coachs, pour des coachs, dans le but d'améliorer la pratique du coaching. Ce qui m'a le plus marqué, c'est l'aspect humain qui la sous-tend : un engagement clair envers l'éthique du coaching et les directives professionnelles. Ce n'est pas seulement intelligent, c'est intentionnel. J'ai également été impressionné par son intuitivité. J'ai créé mon premier agent en quelques heures seulement, et il était entièrement adapté à mes besoins. Que vous soyez féru de technologie ou non, CoachBot Studio vous permet de créer rapidement quelque chose de significatif.",
+            "name": "Hassan M.",
+            "position": "Al-Shohaty, coach exécutif | Spécialiste de la haute performance"
+          },
+          "5": {
+            "text": "CoachBot Studio m'a époustouflé. Il me permet de transformer mon livre en une offre de coaching interactive basée sur l'IA. Cela m'ouvre un tout nouveau monde d'opportunités commerciales évolutives, au-delà de mes capacités personnelles.",
+            "name": "Bjoern W. Schaefer",
+            "position": "Expert GTM et auteur à succès"
+          },
+          "6": {
+            "text": "En tant qu'ancien cadre dirigeant et coach formé à l'INSEAD, j'ai toujours été fasciné par le potentiel de la technologie pour le développement du leadership. Lorsque j'ai lancé un programme de transformation axé sur les neurosciences pour les cadres, j'ai exploré de nombreuses options d'IA, et CoachBot Studio s'est clairement démarqué. La plateforme est accessible, l'accompagnement est exceptionnel et elle est entièrement dédiée à vous aider à concrétiser votre vision. Si vous souhaitez développer votre activité sans sacrifier la qualité, je vous la recommande vivement.",
+            "name": "Jason Leavy",
+            "position": "Fondateur, The Prime Movement | Coach exécutif"
+          },
+          "7": {
+            "text": "CoachBot Studio est plus qu'une plateforme : il nous permet de concevoir et de mettre en œuvre des chatbots de coaching adaptés à la recherche scientifique. C'est une ressource précieuse pour étudier de manière systématique comment l'IA peut soutenir et façonner le développement personnel.",
+            "name": "Dr Vanessa Mai",
+            "position": "Chef du groupe de recherche TH Köln et coach d'affaires"
+          },
+          "8": {
+            "text": "AI CoachBot a révolutionné le coaching en transformant une philosophie de coaching en un produit évolutif et intelligent. En tant que coach et formateur, il m'a permis de traduire des années d'expertise en coaching et une vision centrée sur l'humain en un coach IA interactif, adaptatif, accessible et toujours pertinent. Il redéfinit la manière dont le développement du leadership peut être dispensé, aujourd'hui et demain.",
+            "name": "Temple d'Édouard",
+            "position": "MCC"
+          },
+          "9": {
+            "text": "CoachBot Studio allie le meilleur du coaching à l'innovation : ce n'est pas seulement un outil, c'est une plateforme transformatrice. En tant que Master Coach certifié, j'ai passé des années à former et à encadrer des coachs, et je n'ai jamais vu de produit permettant d'allier harmonieusement éthique du coaching, science du développement et technologie évolutive. J'ai pu donner vie à ma méthodologie de coaching sous la forme d'une expérience interactive d'IA, la rendant accessible aux apprenants et aux dirigeants du monde entier sans sacrifier la profondeur ni la qualité. Si vous souhaitez vraiment accroître votre impact sans perdre votre âme, c'est l'avenir.",
+            "name": "Dr Sheila Boysen-Rotelli",
+            "position": "MCC, coach exécutif, formateur de coachs, mentor, superviseur et stratège en leadership"
+          }
+        }
+      },
+      "Features": {
+        "title": "Pourquoi Coach AI Studio ?",
+        "items": {
+          "0": {
+            "name": "Acquisition simplifiée",
+            "description": "Arrêtez de vous fier uniquement aux réseaux sociaux. Connectez-vous avec des chercheurs de croissance via notre application, WhatsApp ou intégrez votre IA sur votre propre site web."
+          },
+          "1": {
+            "name": "Vos Données, Vos Règles",
+            "description": "Possédez 100% de votre contenu. Nous n'entraînons jamais de modèles avec vos données ni ne commercialisons votre travail. Téléchargez à tout moment."
+          },
+          "2": {
+            "name": "Éthique et Qualité d'Abord",
+            "description": "Notre IA est construite sur des standards leaders comme ICF et EMCC pour maintenir l'intégrité éthique et professionnelle."
+          },
+          "3": {
+            "name": "Restez sécurisé et conforme",
+            "description": "Appuyez-vous sur une plateforme entièrement conforme au RGPD, construite avec une sécurité robuste et de la transparence, protégeant à la fois vous et vos clients."
+          },
+          "4": {
+            "name": "Analysez et Optimisez",
+            "description": "Obtenez des insights sur l'engagement des clients et améliorez votre coaching alimenté par l'IA en un seul clic."
+          },
+          "5": {
+            "name": "Technologie de classe mondiale",
+            "description": "Notre IA multi-agents personnalise les conversations, gère les étapes de coaching et affine les réponses - conçue pour les coachs, pas pour les experts en IA."
+          },
+          "6": {
+            "name": "Parcours de coaching axés sur les données",
+            "description": "Suivez les objectifs, faites ressortir les informations et mesurez les progrès réels grâce aux évaluations et analyses intégrées."
+          },
+          "7": {
+            "name": "Éthique, conforme et détenu par un entraîneur",
+            "description": "Conforme au RGPD+ et à la loi européenne sur l'IA. Architecture modulaire. Aucune fuite de données. Confiance garantie."
+          }
+        }
+      },
+      "WaitlistForm": {
+        "title": "Soyez parmi les premiers à découvrir<yellow> Coach AI Studio</yellow>",
+        "description": "Abonnez-vous maintenant pour garantir votre place dans la bêta !",
+        "namePlaceholder": "*Entrez votre nom",
+        "submitButton": "Abonnez-vous maintenant",
+        "emailPlaceholder": "*Entrez votre adresse email",
+        "usagePlaceholder": "Qu'attendez-vous avec impatience d'utiliser Studio CoachBot.ai ?",
+        "agreementCheckbox": "J'accepte le traitement de mes données personnelles tel que décrit dans la <link>Politique de confidentialité</link>."
+      },
+      "Signup": {
+        "title": "Bienvenue sur Coach AI Studio",
+        "subTitle": "Nous sommes ravis de vous compter parmi nous.",
+        "description": "Vous y êtes presque. Veuillez compléter votre profil pour nous aider à personnaliser votre expérience pour Coach AI Studio. En apprenant à vous connaître, vous et votre entreprise, vous augmentez vos chances que nous vous contactions pour un accès anticipé !",
+        "form": {
+          "personalInfoTitle": "1. Renseignements personnels",
+          "firstName": "Prénom",
+          "firstNamePlaceholder": "Entrez votre nom",
+          "lastName": "Nom de famille",
+          "lastNamePlaceholder": "Entrez votre nom de famille",
+          "email": "Adresse email",
+          "emailPlaceholder": "Entrez votre adresse email",
+          "ageGroupLabel": "Votre âge",
+          "professionalBackgroundLabel": "Profession principale (sélectionnez la correspondance la plus proche) :",
+          "areaOfFocusLabel": "Domaines d'intervention :",
+          "yearsOfExperienceLabel": "Années d'expérience :",
+          "professionalBackgroundTitle": "2. Votre parcours professionnel",
+          "otherInputPlaceholder": "Écrivez votre réponse ici...",
+          "professionOptions": {
+            "0": "Entraîneur",
+            "1": "Formateur",
+            "2": "Mentor",
+            "3": "Consultant",
+            "4": "Thérapeute"
+          },
+          "otherOption": "Autre",
+          "focusAreaOptions": {
+            "0": "Coaching d'entreprise",
+            "1": "Développement personnel",
+            "2": "Thérapie et bien-être",
+            "3": "Développement de carrière",
+            "4": "Coaching de dirigeants et de cadres"
+          },
+          "yearsOfExperienceOptions": {
+            "0": "En formation",
+            "1": "1 à 3 ans",
+            "2": "4–6 ans",
+            "3": "7–10 ans",
+            "4": "10+ années"
+          },
+          "interestsFormTitle": "3. Qu'est-ce qui vous intéresse le plus ?",
+          "interestsLabel": "(Sélectionnez toutes les réponses qui s'appliquent)",
+          "interestsOptions": {
+            "0": "Augmenter ma portée et mes revenus",
+            "1": "Améliorer mon entonnoir d'acquisition de clients",
+            "2": "Réduire la charge de travail administrative",
+            "3": "Amélioration du suivi des objectifs et des progrès des clients (entre les séances)",
+            "4": "Mon développement personnel et supervision de pratique"
+          },
+          "challengeFormTitle": "4. Quel est votre plus grand défi en ce moment ? (Facultatif)",
+          "challengePlaceholder": "Partagez vos pensées ou ignorez-les si vous préférez...",
+          "operateFormTitle": "5. Comment travaillez-vous actuellement ?",
+          "operateOptions": {
+            "0": "Praticien solo",
+            "1": "Membre d'une équipe ou d'un réseau",
+            "2": "Une partie d'une entreprise",
+            "3": "Hybride (en ligne et hors ligne)"
+          },
+          "clientsFormTitle": "6. Clientèle actuelle :",
+          "socialMediaFormTitle": "7. Présence sur les réseaux sociaux (facultatif) :",
+          "clientsLabel": "Nombre de clients actifs :",
+          "revenueLabel": "Revenu mensuel moyen (facultatif) :",
+          "profilePlaceholder": "Lien de profil",
+          "otherProfilesPlaceholder": "Autres profils (Instagram, Facebook, etc.)",
+          "nextSteps": {
+            "description": "En soumettant ce formulaire, vous confirmez avoir lu et accepté nos<link> politique de confidentialité</link> et consentez au traitement de vos données personnelles conformément à la réglementation GDPR. Vos données seront utilisées uniquement dans le but de répondre à votre demande et de fournir des mises à jour pertinentes sur Coach AI Studio. Vous pouvez retirer votre consentement à tout moment en nous contactant à<email> privacy@coachbot.ai</email> .",
+            "policyAgreementLable": "J'accepte le traitement de mes données personnelles conformément à la<link> Politique de confidentialité.</link>",
+            "marketingAgreementLabel": "J'accepte de recevoir des communications marketing et des mises à jour sur CoachBot. (Facultatif)"
+          }
+        },
+        "success": {
+          "title": "Vous êtes sur la liste !",
+          "description": "Merci de vous être inscrit ! Vos données ont été envoyées avec succès. Nous vous contacterons dans les prochaines semaines.",
+          "label": "Restez à l'écoute!"
+        }
+      }
+    },
+    "TeamPage": {
+      "title": "Rencontrez l'équipe derrière CoachBot.ai",
+      "description": "Un groupe dévoué d'innovateurs, de penseurs et de créateurs passionnés par l'autonomisation de votre parcours grâce à des solutions de coaching personnalisées.",
+      "coreTeam": {
+        "title": "Équipe",
+        "description": "Des leaders visionnaires et des esprits novateurs travaillent ensemble pour façonner l'avenir, favoriser la croissance et donner vie à des idées innovantes. De l'orientation stratégique aux solutions de pointe, notre équipe se consacre à la construction d'un monde de possibilités.",
+        "profiles": {
+          "0": {
+            "id": "0",
+            "name": "Lewin Keller",
+            "role": "Fondateur & PDG"
+          },
+          "1": {
+            "id": "1",
+            "name": "Chris Prahl",
+            "role": "CTO"
+          },
+          "2": {
+            "id": "2",
+            "name": "David Meehan",
+            "role": "CPO"
+          },
+          "3": {
+            "id": "3",
+            "name": "Nadina Tyropolis",
+            "role": "CMO"
+          },
+          "4": {
+            "id": "4",
+            "name": "Azhar Hussain",
+            "role": "Ingénieur Fullstack"
+          },
+          "5": {
+            "id": "5",
+            "name": "Felix Exner",
+            "role": "Ingénieur AI Coach"
+          },
+          "6": {
+            "id": "6",
+            "name": "Ihor Balandin",
+            "role": "Ingénieur AI Coach"
+          },
+          "7": {
+            "id": "7",
+            "name": "Ayushi Jain",
+            "role": "Spécialiste Produit"
+          }
+        }
+      },
+      "advisorsTeam": {
+        "title": "conseillers et partenaires",
+        "description": "Des conseillers de confiance et des partenaires dévoués qui favorisent la réussite grâce à des informations stratégiques, une innovation collaborative et une vision partagée. Ensemble, nous créons des solutions efficaces et favorisons une croissance significative.",
+        "profiles": {
+          "0": {
+            "id": "0",
+            "name": "Anna A. Tavis, PhD",
+            "role": "Directrice de département, @ NYU, SPS | Professeure clinique, Global Top 50 HR Voice"
+          },
+          "1": {
+            "id": "1",
+            "name": "Jonathan Reitz",
+            "role": "Master Certified Coach (MCC-ICF) | Credentialed Team Coach (ACTC-ICF)"
+          },
+          "2": {
+            "id": "2",
+            "name": "Amir Suissa",
+            "role": "Fondateur | Investisseur | Mentor"
+          },
+          "3": {
+            "id": "3",
+            "name": "Sheila Boysen-Rotelli, Ph.D.",
+            "role": "MCC, Professeure et Executive Coach"
+          },
+          "4": {
+            "id": "4",
+            "name": "Rebecca Rutschmann",
+            "role": "Fondatrice, VP @ EMCC, PCC, Consultante en coaching IA"
+          },
+          "5": {
+            "id": "5",
+            "name": "Jule Deges",
+            "role": "Scientifique comportementale | Consultante | Conférencière | Modératrice | Candidate au doctorat"
+          },
+          "6": {
+            "id": "6",
+            "name": "David Taylor-Klaus",
+            "role": "MCC, CTPC, Membre fondateur ICF AI Advisory Council"
+          },
+          "7": {
+            "id": "7",
+            "name": "Roger DeWitt",
+            "role": "Master ADHD Coach & Mentor, MCAC, PCC, MAPP"
+          }
+        }
+      }
+    },
+    "ShowcasePage": {
+      "title": "Vitrine CoachBot",
+      "description": "Découvrez votre Coach IA idéal - conçu par des professionnels certifiés et adapté à vos besoins uniques. Choisissez parmi des expériences de coaching personnalisées qui élèvent votre croissance.",
+      "searchPlaceholder": "Tapez des mots-clés comme 'coaching exécutif', 'TDAH', 'changement de carrière' ou vos objectifs et défis spécifiques…",
+      "privacy": {
+        "title": "Votre vie privée compte.",
+        "compliance": "Entièrement conforme à CCPA, GDPR, Loi sur l'IA de l'UE."
+      },
+      "noResults": {
+        "title": "Aucun coach trouvé",
+        "description": "Essayez d'ajuster votre recherche ou vos filtres pour trouver ce que vous cherchez.",
+        "resetButton": "Réinitialiser la recherche"
+      },
+      "card": {
+        "createdBy": "Créé par",
+        "showMore": "Afficher plus",
+        "showLess": "Afficher moins",
+        "audience": "Public",
+        "formats": "Formats",
+        "privacy": "Confidentialité",
+        "noData": "Aucune donnée",
+        "startCoaching": "Commencer le coaching",
+        "comingSoon": "Bientôt disponible"
+      },
+      "capabilities": {
+        "Individuals": "Individus",
+        "Organization": "Organisation",
+        "Coach": "Coach",
+        "Machine Led AI": "IA dirigée par machine",
+        "Human 1:1s": "Humains 1:1",
+        "Human Groups": "Groupes humains",
+        "Confidential": "Confidentiel",
+        "Anonymized": "Anonymisé",
+        "Shared": "Partagé"
+      }
+    }
+  },
+  "Common": {
+    "PublicLayout": {
+      "navigation": {
+        "about": "À propos",
+        "signIn": "Se connecter",
+        "login": "Se connecter",
+        "logout": "Se déconnecter",
+        "home": "Accueil",
+        "faq": "FAQ",
+        "blog": "Blog",
+        "plans": "Plans",
+        "pricing": "Tarifs",
+        "menu": "Menu",
+        "menuTitle": "Sélectionnez une zone",
+        "account": "Compte",
+        "studio": "Pour les coachs",
+        "team": "Équipe",
+        "loginLinks": {
+          "coaching": "pour le coaching",
+          "coaches": "pour les entraîneurs"
+        },
+        "authMenu": {
+          "title": "Choisissez votre chemin pour vous connecter"
+        }
+      },
+      "buttons": {
+        "backToCoach": "Retour à l'entraîneur",
+        "coachMe": "Entraîne-moi"
+      }
+    },
+    "policy": {
+      "cookiePolicy": "Politique relative aux cookies",
+      "privacyPolicy": "Politique de confidentialité",
+      "termsOfService": "Conditions d'utilisation",
+      "imprint": "Impression",
+      "privacyRights": "Vos droits en matière de confidentialité",
+      "privacyRightsButton": "Accéder, modifier ou supprimer vos données"
+    },
+    "logout": "Se déconnecter",
+    "readLinkText": "Lire",
+    "cancelButton": "Annuler",
+    "newChat": "Nouvelle conversation",
+    "upgradeSubscription": {
+      "limitReachedMessage": "Nos plans d'abonnement pour atteindre vos objectifs",
+      "upgradeButtonTitle": "Mettre à jour",
+      "freePlanNotification": "Utilisation du plan gratuit limité",
+      "accountNotification": "<button>Mise à niveau</button> du plan gratuit"
+    },
+    "yesterday": "Hier",
+    "today": "Aujourd'hui",
+    "welcomeMessage": "Bienvenue, {name} !",
+    "welcomeBackMessage": "Bon retour, {name} !",
+    "recentHistoryTitle": "Historique des conversations récentes",
+    "focusAreaTitle": "Définissez votre voie – Fixez votre domaine de concentration aujourd'hui !",
+    "questionaireButton": "Compléter le questionnaire",
+    "completeOpenButton": "Ouvrir",
+    "comingSoonBadge": "Bientôt disponible",
+    "contactUsButton": "Contactez-nous",
+    "Labels": {
+      "buildWithUaTeam": "Construit avec <love></love>",
+      "closedBeta": "RRejoignez notre bêta limitée ! Inscrivez-vous maintenant pour accéder à notre plan gratuit - aucune carte de crédit requise 🚀",
+      "errorLabel": "Nous rencontrons des problèmes techniques. Notre équipe travaille à rétablir le service rapidement ! 🛠️"
+    },
+    "next": "Suivant",
+    "submitButton": "Soumettre",
+    "days": "{count, plural, =1 {jour} other {jours}}",
+    "errorPage": {
+      "returnHomeButton": "Retour à l'accueil",
+      "returnDashboardButton": "Retour au tableau de bord",
+      "notFound": {
+        "title": "Oups ! On dirait que tu es perdu !",
+        "description": "Nous ne parvenons pas à trouver la page que vous recherchez. Revenons sur la bonne voie."
+      },
+      "serviceUnavailable": {
+        "title": "Service temporairement indisponible",
+        "description": "En raison de problèmes techniques, nous sommes actuellement en train de recharger nos pouvoirs de coaching. Veuillez revenir bientôt.<break> Nous nous excusons pour la gêne occasionnée !</break>"
+      }
+    },
+    "errors": {
+      "phoneInUseMessage": "Le numéro de téléphone fourni est déjà utilisé. Veuillez utiliser un autre numéro de téléphone à la place."
+    },
+    "form": {
+      "errors": {
+        "firstNameRequired": "Le prénom est requis",
+        "lastNameRequired": "Le nom est requis",
+        "emailInvalid": "Veuillez fournir un e-mail valide",
+        "emailRequired": "L'e-mail est requis",
+        "selectionRequired": "La sélection est requise",
+        "multiselectionRequired": "Veuillez sélectionner au moins une valeur",
+        "invalidUrl": "Veuillez entrer une URL valide",
+        "policyAgreementRequired": "L'accord sur la politique est requis",
+        "policyAcceptanceRequired": "L'accord sur la politique doit être accepté."
+      }
+    },
+    "messageLoadingText": "Pensée..."
+  },
+  "Account": {
+    "Archive": {
+      "modals": {
+        "archive": {
+          "title": "Archiver l'historique des conversations",
+          "buttonTitle": "Confirmer l'archivage",
+          "content": "Êtes-vous sûr ?"
+        },
+        "clear": {
+          "title": "Effacer l'historique des conversations",
+          "buttonTitle": "Confirmer la suppression",
+          "content": "Êtes-vous sûr ?"
+        }
+      },
+      "title": "Gestion des conversations",
+      "archiveLabel": "Archiver les conversations",
+      "archiveAllLabel": "Archiver toutes les conversations",
+      "archiveButtonTitle": "Gérer",
+      "archiveAllButtonTitle": "Archiver",
+      "deleteAllButtonTitle": "Supprimer",
+      "deleteAllLabel": "Supprimer toutes les conversations",
+      "unarchiveNotification": "Désarchiver la conversation",
+      "deleteNotification": "Supprimer la conversation",
+      "noArchivedMessage": "Aucune discussion archivée."
+    },
+    "Social": {
+      "logoImgAlt": "Logo social",
+      "shareOnLabel": "Partager sur",
+      "title": "Partagez CoachBot avec les autres",
+      "shareLinkLabel": "Partager le lien"
+    },
+    "Subscriptions": {
+      "title": "Vous utilisez le plan <planName> </planName>",
+      "description": "Utilisez davantage avec les plans Growth ou Pro !",
+      "actionText": "Choisissez l'un des trois plans pour une communication confortable."
+    },
+    "SidePanel": {
+      "menu": {
+        "manageAccount": "Gérer le compte",
+        "manageArchive": "Gérer les archives",
+        "subscriptionPlans": "Formules",
+        "share": "Partager CoachBot.ai",
+        "legalPages": "Juridique et Conformité",
+        "coachMessengers": "Connecter",
+        "feedback": "Commentaires sur CoachBot"
+      },
+      "userLogoAlt": "Logo utilisateur",
+      "planText": "plan",
+      "disabledLabelText": "Pour le plan Premium"
+    },
+    "modals": {
+      "forgotPassword": {
+        "title": "Mot de passe oublié ?",
+        "buttonTitle": "Demander la réinitialisation du mot de passe",
+        "content": "Veuillez entrer l'e-mail que vous utilisez pour vous connecter."
+      },
+      "deleteAccount": {
+        "title": "Supprimer le compte ?",
+        "buttonTitle": "Supprimer",
+        "content": "Cette action ne peut pas être annulée."
+      }
+    },
+    "deleteButton": {
+      "loadingText": "Suppression du compte...",
+      "titile": "Supprimer le compte"
+    },
+    "ManageForm": {
+      "title": "Informations personnelles",
+      "formControls": {
+        "username": "Nom d'utilisateur",
+        "email": "Adresse e-mail",
+        "gender": {
+          "title": "Genre",
+          "male": "Homme",
+          "female": "Femme",
+          "other": "Autre"
+        },
+        "language": {
+          "title": "Langue"
+        },
+        "age": {
+          "title": "Âge"
+        }
+      },
+      "changePassword": {
+        "title": "Changer le mot de passe",
+        "formControls": {
+          "current": "Mot de passe actuel",
+          "new": "Nouveau mot de passe",
+          "confirm": "Confirmer le mot de passe"
+        },
+        "correctMessage": "Mot de passe correctement saisi",
+        "forgotPassword": "Mot de passe oublié ?"
+      },
+      "saveButton": "Enregistrer les modifications",
+      "premiumNotificationLabel": "Le changement de nom n'est disponible que dans le<link> Plan Premium</link>"
+    },
+    "Socials": {
+      "copiedLabel": "Le lien a été copié!"
+    },
+    "messengers": {
+      "connectLabel": "Se connecter à"
+    },
+    "Feedback": {
+      "title": "Demandes de fonctionnalités et commentaires sur CoachBot",
+      "description": "Dites-nous quelles fonctionnalités vous souhaiteriez voir apparaître pour CoachBot et expliquez-nous « votre pourquoi ». C'est également un excellent endroit pour partager vos commentaires.",
+      "form": {
+        "inputPlaceholder": "Titre court et descriptif",
+        "descriptionPlaceholder": "Vos commentaires sont importants pour nous...",
+        "descriptionLabel": "Description"
+      },
+      "filterOption": {
+        "trending": "Tendance",
+        "top": "Haut",
+        "new": "Nouveau"
+      },
+      "filterTitle1": "Affichage",
+      "filterTitle2": "Articles",
+      "emptyState": {
+        "title": "Articles suggérés",
+        "subtitle": "Il n'y a pas de publications suggérées."
+      }
+    }
+  },
+  "Chat": {
+    "Assistant": {
+      "input": {
+        "placeholderMobile": "Dites 'salut' pour discuter...",
+        "placeholder": "Tapez 'salut' ou autre chose pour commencer une conversation...",
+        "placeholderVoiceMobile": "Veuillez parler...",
+        "placeholderVoice": "Veuillez parler, votre voix est en cours d'enregistrement...",
+        "placeholderTokenLimit": "Limite de jetons atteinte",
+        "placeholderActiveChat": "Répondre à CoachBot...",
+        "placeholderInactivesubscription": "L'abonnement Coach n'est pas actif."
+      },
+      "greetingMessage": {
+        "common": "Bonjour, je m'appelle <gray>CoachBot</gray> – ravi de vous rencontrer !",
+        "personal": "Bonjour <gray>{name}</gray>, comment puis-je vous aider aujourd'hui ?"
+      },
+      "select": {
+        "label": "Coach IA"
+      },
+      "PaymentModal": {
+        "title": "Coach IA",
+        "dataSharingLable": "Partage de données :",
+        "monthLabel": "mois",
+        "yearLabel": "année",
+        "freeTrialLabel": "Essai gratuit d'une journée sans frais.",
+        "cancelationLabel": "Annulation facile.",
+        "seeMoreLabel": "Voir plus",
+        "yearlyLabel": "Annuel (à prix réduit)",
+        "accessModeConsent": {
+          "confidential": {
+            "privacyNote": "Votre coach ne peut accéder à aucune partie de vos conversations ni à vos données d'utilisation ; votre coaching IA reste entièrement privé. Pour plus d'informations, veuillez consulter la section<privacy> Conditions générales.</privacy>",
+            "consentCheckboxLabel": "Je confirme et consens à ce que mes données restent privées et ne soient pas accessibles à mon coach."
+          },
+          "full_access": {
+            "privacyNote": "Votre coach a un accès complet aux transcriptions de vos conversations et à vos données d'utilisation. Cela lui permet de bénéficier d'un retour et d'un accompagnement personnalisés. Pour plus d'informations, veuillez consulter la section<privacy> Conditions générales.</privacy>",
+            "consentCheckboxLabel": "Je confirme et j'accepte que mon coach puisse accéder à toutes mes transcriptions de conversation et à mes données d'utilisation."
+          },
+          "high_level": {
+            "privacyNote": "Votre coach peut consulter des résumés détaillés de votre activité, tels que les tendances des sujets et les statistiques d'engagement. Vos conversations et données personnelles restent privées et ne sont pas partagées. Pour plus d'informations, veuillez consulter la section « Informations sur les conversations ».<privacy> Conditions générales.</privacy>",
+            "consentCheckboxLabel": "Je confirme et j'accepte que mon coach puisse consulter des résumés de haut niveau de mon utilisation, mais pas le contenu de mes conversations."
+          }
+        }
+      }
+    },
+    "HistoryPanel": {
+      "openHistoryButton": "Histoire ouverte",
+      "menu": {
+        "rename": "Renommer",
+        "renameInputLabel": "Nouveau nom du chat",
+        "archive": "Archiver",
+        "delete": "Supprimer"
+      },
+      "options": {
+        "rename": {
+          "buttonTitle": "Renommer",
+          "title": "Renommer le chat ?",
+          "inputPlaceholder": "Entrez un nouveau nom de chat"
+        },
+        "archive": {
+          "buttonTitle": "Archiver",
+          "title": "Archiver le chat ?"
+        },
+        "delete": {
+          "buttonTitle": "Supprimer",
+          "title": "Supprimer le chat ?"
+        }
+      },
+      "emptyMessage": "Votre historique est actuellement vide",
+      "closeHistoryButton": "Fermer l'historique"
+    }
+  },
+  "Dashboard": {
+    "tourTriggerButtonTitle": "Comment fonctionne CoachBot",
+    "greetingMessage": "Votre voyage vers la croissance et le succès commence ici.",
+    "progressImgAlt": "Cercle de progression",
+    "description": "“🔥 Excellent travail ! Vous progressez chaque jour - chaque étape compte dans votre voyage vers le succès.“",
+    "subDescription": "Continuez, ne vous arrêtez pas maintenant !",
+    "descriptionNewUser": "“🚀 Chaque grand voyage commence par un seul pas. En choisissant CoachBot, vous avez fait un pas puissant vers la réalisation de votre potentiel.“",
+    "subDescriptionNewUser": "Rendons ce voyage extraordinaire !",
+    "lastConversation": {
+      "title": "Dernière conversation",
+      "description": "Commencez une nouvelle conversation maintenant",
+      "emptyDescription": "Commencez Votre Premier Chat Maintenant !",
+      "buttonTitle": "Commençons"
+    },
+    "dayOfTheDay": {
+      "title": "personnes ont choisi ce domaine aujourd'hui.",
+      "subtitle": "Rejoignez-les et faites-en votre priorité aussi - commencez maintenant !"
+    },
+    "charts": {
+      "buttonTitle": "Refaire l'évaluation",
+      "buttonTitleEmpty": "Commencer maintenant"
+    },
+    "goals": {
+      "title": "Vos objectifs vous attendent !",
+      "description": "Restez concentré sur vos objectifs et atteignez-les avec confiance !",
+      "descriptionEmpty": "Commencez fort en fixant votre premier objectif et faites le premier pas vers le succès !",
+      "buttonTitle": "Gérer les Objectifs",
+      "buttonTitleEmpty": "Fixez Votre Premier Objectif"
+    }
+  },
+  "Categories": {
+    "mainTitle": "Vous voulez des conseils personnalisés et des suggestions de sujets ?",
+    "subTitle": "Quel sujet <chip></chip> aimeriez-vous explorer, <gray></gray> ?",
+    "loaderMessage": "Vous voulez des conseils personnalisés et des suggestions de sujets ?",
+    "options": {
+      "finances": {
+        "name": "Finances",
+        "description": "Les ressources qui soutiennent notre mode de vie : revenus, épargne, investissements et planification financière, assurant la stabilité et la sécurité pour l’avenir.",
+        "managingLoanDebt": "Gérer la dette de prêt",
+        "creatingAndStickingToABudget": "Créer et respecter un budget",
+        "savingForMajorLifeEvents": "Épargner pour les événements importants de la vie",
+        "findingOtherSourcesOfIncome": "Trouver d’autres sources de revenus"
+      },
+      "familyAndFriends": {
+        "name": "Famille et amis",
+        "description": "Les liens personnels qui façonnent nos vies : la famille, les amis proches et les êtres chers, y compris le soutien et le temps partagé ensemble.",
+        "navigatingFamilyExpectationsAndObligations": "Gérer les attentes et les obligations familiales",
+        "balancingTimeBetweenWorkAndSocialLife": "Équilibrer le temps entre le travail et la vie sociale",
+        "improvingCommunicationSkillsWithFamilyAndFriends": "Améliorer les compétences en communication avec la famille et les amis",
+        "buildingAndMaintainingMeaningfulFriendships": "Construire et entretenir des amitiés significatives"
+      },
+      "romance": {
+        "name": "Romance",
+        "description": "Les liens intimes qui nourrissent nos cœurs : trouver l’amour, construire un partenariat et partager notre vie avec un autre.",
+        "findingACompatiblePartner": "Trouver un partenaire compatible",
+        "maintainingAHealthyWorkLifeBalanceInRelationships": "Maintenir un équilibre sain entre vie professionnelle et vie privée dans les relations",
+        "communicatingEffectivelyWithAPartner": "Communiquer efficacement avec un partenaire",
+        "overcomingTrustIssuesAndBuildingIntimacy": "Surmonter les problèmes de confiance et construire l'intimité"
+      },
+      "personalGrowth": {
+        "name": "Croissance personnelle",
+        "description": "Le voyage de la découverte de soi : développement personnel, établissement d’objectifs, dépassement des obstacles et devenir la meilleure version de vous-même.",
+        "settingAndAchievingPersonalGoals": "Fixer et atteindre des objectifs personnels",
+        "buildingSelfConfidenceAndSelfEsteem": "Développer la confiance en soi et l'estime de soi",
+        "managingStressAndAnxiety": "Gérer le stress et l'anxiété",
+        "findingMotivationAndOvercomingProcrastination": "Trouver la motivation et vaincre la procrastination"
+      },
+      "funAndRecreation": {
+        "name": "Loisirs et divertissements",
+        "description": "Les épices de la vie : les loisirs, les détentes, les hobbies, les activités sociales et les moments joyeux qui enrichissent nos expériences quotidiennes.",
+        "discoveringNewHobbiesAndInterests": "Découvrir de nouveaux passe-temps et intérêts",
+        "balancingLeisureActivitiesWithResponsibilities": "Concilier loisirs et responsabilités",
+        "planningAndEnjoyingVacationsAndTrips": "Planifier et profiter des vacances et des voyages",
+        "buildingASocialLifeThatIncludesFunAndRecreation": "Construire une vie sociale qui inclut le plaisir et les loisirs"
+      },
+      "businessAndCareer": {
+        "name": "Affaires et carrière",
+        "description": "La poursuite d’un objectif et du succès : choix de carrière, croissance professionnelle, développement des compétences et navigation dans le monde du travail.",
+        "findingTheRightCareerPath": "Trouver le bon cheminement de carrière",
+        "navigatingCareerTransitionsAndJobChanges": "Naviguer dans les transitions de carrière et les changements d'emploi",
+        "buildingAProfessionalNetwork": "Construire un réseau professionnel",
+        "enhancingSkillsAndProfessionalDevelopment": "Améliorer les compétences et le développement professionnel"
+      },
+      "physicalEnvironment": {
+        "name": "Environnement physique",
+        "description": "L'espace qui nous entoure : environnements de vie, espaces de travail, organisation et création de lieux où nous nous sentons à l'aise, en sécurité et productifs.",
+        "creatingAProductiveAndInspiringWorkspace": "Créer un espace de travail productif et inspirant",
+        "managingHouseholdResponsibilitiesAndChores": "Gérer les responsabilités et les tâches ménagères",
+        "findingAndCreatingAComfortableLivingSpace": "Trouver et créer un espace de vie confortable",
+        "organizingAndDeclutteringHomeEnvironments": "Organiser et désencombrer les environnements domestiques"
+      },
+      "healthAndWellbeing": {
+        "name": "Santé et bien-être",
+        "description": "La base d’une vie équilibrée : la santé physique, le bien-être mental et les habitudes qui soutiennent un style de vie dynamique et épanouissant.",
+        "establishingAndMaintainingAHealthyDiet": "Établir et maintenir une alimentation saine",
+        "creatingAndStickingToAnExerciseRoutine": "Créer et s'en tenir à une routine d'exercice",
+        "managingMentalHealthAndWellbeing": "Gérer la santé mentale et le bien-être",
+        "balancingSleepAndDailyRoutines": "Équilibrer le sommeil et les routines quotidiennes"
+      }
+    }
+  },
+  "Sidebar": {
+    "closeButton": "Fermer la barre latérale",
+    "navLinks": {
+      "dashboard": "Tableau de bord",
+      "conversations": "Conversations",
+      "goalsActions": "GoalTrack",
+      "lifeInsights": "LifeVision",
+      "account": "Compte",
+      "growthNavigator": "Navigateur de croissance"
+    },
+    "developmentNotification": "section actuellement en développement",
+    "homeLinkTitle": "Maison",
+    "fullHomeLinkTitle": "Retour à la page d'accueil"
+  },
+  "LifeInsights": {
+    "History": {
+      "modals": {
+        "rename": {
+          "title": "Renommer la Zone?",
+          "buttonTitle": "Renommer",
+          "inputLabel": "Nouveau nom de la zone",
+          "inputPlaceholder": "Saisissez le nouveau nom de l'élément historique"
+        },
+        "delete": {
+          "title": "Supprimer la Zone?",
+          "buttonTitle": "Supprimer",
+          "content": "Cela supprimera :"
+        }
+      },
+      "defaultName": "Le nom par défaut est \"Zone\"",
+      "title": "Liste d'historique LifeVision"
+    },
+    "Sidepanel": {
+      "menu": {
+        "assessment": "Votre évaluation LifeVision",
+        "history": "Historique des visions",
+        "moments": "Moments décisifs"
+      },
+      "title": "Vos Visions",
+      "description": "Ici, vous pouvez comprendre quelles zones de votre vie vous souhaitez cibler, vérifier l'historique de vos visions ou marquer les moments importants de percée de votre parcours de coaching."
+    },
+    "Assessment": {
+      "assessmentTitle": "Votre évaluation LifeVision",
+      "emptyMessage": "Votre évaluation LifeVision est vide",
+      "newSurveyTitle": "Prêt à actualiser votre évaluation LifeVision ?",
+      "title": "Évaluation LifeVision",
+      "newSurveySubtitle": "Répondez à l'enquête pour évaluer votre vie sur différents<bold> Thèmes</bold> .<break></break><bold> Thèmes</bold> il existe différents domaines de la vie sur lesquels vous pouvez vous concentrer pendant votre parcours de coaching, comme « Santé et bien-être » et « Finances ».",
+      "startedSurveySubtitle": "Complétez l'enquête pour maximiser votre vision.",
+      "completedSurveySubtitle": "Merci pour vos réponses !",
+      "description": "En fonction de votre évaluation, voici à quoi ressemble votre évaluation LifeVision. Vous pouvez l'utiliser comme recommandation pour votre parcours de coaching et pour suivre vos progrès. N'oubliez pas que vous pouvez y revenir et l'ajuster à tout moment.",
+      "startSurveyButton": "Démarrer l'enquête",
+      "saveAreaButton": "Enregistrer la Zone",
+      "makeChangesButton": "Apporter des modifications",
+      "createNewAreaButton": "Refaire l'évaluation",
+      "saveChangesButton": "Sauvegarder",
+      "Survey": {
+        "outOfRangeMessage": "{index} <stormGray> sur {length} </stormGray>",
+        "question": "Comment évalueriez-vous cette zone de votre vie \"en ce moment\"?",
+        "skipAreaButton": "Passer cette zone",
+        "nextButton": "Suivant",
+        "futureStateButton": "État futur souhaité",
+        "prevTopicButton": "Sujet précédent",
+        "nextTopicButton": "Sujet suivant",
+        "finishButton": "Finition",
+        "currentStateButton": "État actuel",
+        "currentFutureStateButton": "État actuel et futur",
+        "futureStateQuestion": "Pensez à l’endroit où vous voulez être de manière réaliste",
+        "monthsLabel": "Mois",
+        "yearLabel": "Année"
+      },
+      "conversationsButton": "Conversations",
+      "updateTopicButton": "Mettre à jour le sujet",
+      "topicStateButton": "Votre état actuel",
+      "GoalsSection": {
+        "title": " Personnalisez votre voyage",
+        "subTitle": "Ajoutez des objectifs spécifiques que vous souhaitez atteindre dans ce sujet. Cela vous aidera à orienter des conversations constructives !",
+        "newGoalPlaceholder": "Ajouter l'objectif {count} / 4",
+        "createdLabel": "Créé {date}",
+        "limitReachedPlaceholder": "Tous les créneaux sont occupés. Veuillez supprimer un élément existant pour en créer un nouveau."
+      },
+      "updateCategoryTitle": "Évaluez votre état actuel",
+      "savingLabel": "Économie..."
+    },
+    "Notification": {
+      "title": "Analysez votre \"Cercle de Vie\" pour une croissance plus profonde !",
+      "text": "Répondez à quelques questions pour créer un diagramme d'équilibre de vie et travaillez avec votre coach sur les aspects clés de votre développement personnel.",
+      "linkTitle": "Commencez vos LifeVision"
+    },
+    "AssessmentbackToCurrentButton": "Retour à l'actualité"
+  },
+  "ErrorMessages": {
+    "auth": {
+      "access_denied": {
+        "message": "Ouvrez votre boîte mail et suivez notre lien de vérification.",
+        "title": "Vérifiez d'abord votre compte"
+      },
+      "default": {
+        "message": "Erreur lors de l'autorisation",
+        "title": "Erreur de connexion"
+      },
+      "WhatsAppError": {
+        "title": "Erreur de connexion à Whatsapp",
+        "message": "Le numéro WhatsApp existe déjà."
+      }
+    }
+  },
+  "ManageForm": {
+    "formControls": {
+      "emailPlaceholder": "Entrez votre email",
+      "emailLabel": "Votre email"
+    }
+  },
+  "Subscriptions": {
+    "Prices": {
+      "FREE": {
+        "description": "Commencez avec notre plan gratuit dans le monde du coaching IA.",
+        "features": {
+          "0": "Coach IA (limité dans le temps)",
+          "1": "Accès à la communauté des coachs",
+          "2": "LifeVision & GoalTrack (limité)"
+        }
+      },
+      "GROWTH": {
+        "description": "Développez vos compétences avec notre plan premium et bénéficiez d'une expérience de coaching hybride.\nOffre de lancement de 50% pour nos 500 premiers utilisateurs.\nUtilisez le code : Launch50",
+        "features": {
+          "0": "Coach IA",
+          "1": "Accès à la communauté",
+          "2": "LifeVision & GoalTrack",
+          "3": "Inclus la communication de voix à voix",
+          "4": "Mise en relation avec un coach humain",
+          "5": "Première session avec un coach humain gratuite"
+        }
+      },
+      "periods": {
+        "monthly": "Mensuel",
+        "yearly": "Annuel",
+        "billed_annually": "facturé annuellement",
+        "alwaysFree": "Toujours gratuit"
+      },
+      "tokensLabel": "jetons par jour",
+      "startButton": "Débloquer",
+      "downgradeButton": "Rétrograder",
+      "activePriceButton": "Plan Actif",
+      "newPriceButton": "Débloquer Maintenant",
+      "monthLabel": "par mois",
+      "activePlanLabel": "Votre plan actif",
+      "bonus": "Bonus",
+      "popular": "Le plus populaire",
+      "discountLabel": "% de réduction!",
+      "limitedOfferLabel": "(offre limitée)",
+      "limited": "Limité",
+      "unlimited": "Illimité"
+    },
+    "unsubscribeModal": {
+      "title": "Confirmer l'annulation",
+      "buttonTitle": "Se désabonner",
+      "contentKey": "Êtes-vous sûr de vouloir annuler votre abonnement « {name} » ?",
+      "cancelButton": "Fermer"
+    },
+    "guarantee": "* Garantie de remboursement de 90 jours : \"Contactez notre <white>équipe d'assistance</white> pour bénéficier de notre politique de remboursement à 100 %.\"",
+    "cancelSubscriptionButton": "Annuler l'abonnement"
+  },
+  "GoalsActions": {
+    "modals": {
+      "delete": {
+        "title": "Supprimer l'objectif ?",
+        "buttonTitle": "Supprimer",
+        "content": "Cela supprimera :"
+      },
+      "activity": {
+        "inputPlaceholder": "Si vous avez des idées, n’hésitez pas à les partager ici.",
+        "inputLabel": "Facultatif",
+        "buttonTitle": "Suivre les progrès",
+        "title": "Suivez vos progrès",
+        "goalLabel": "Votre objectif",
+        "feelingQuestion": "Comment vous sentiez-vous ?"
+      }
+    },
+    "newGoal": {
+      "title": "Préparez-vous au succès",
+      "inputLabel": "Commencez votre objectif",
+      "inputPlaceholder": "Par exemple, méditez 10 minutes par jour...",
+      "customizeButton": "Créer",
+      "customize": {
+        "yourGoalLabel": "Votre objectif",
+        "lifeAreaLabel": "Choisissez votre domaine de vie",
+        "planningSuccessLabel": "Planifier le succès",
+        "priorityLabel": "Priorité",
+        "notificationChannelLabel": "Canal de notification",
+        "buttonTitle": "Commencez votre voyage vers le succès",
+        "editButtonTitle": "Enregistrer l'objectif"
+      },
+      "goalAdded": "Nouvel objectif ajouté avec succès !",
+      "goalUpdated": "L'objectif a été mis à jour avec succès !",
+      "goalInList": "Il est apparu dans votre liste.",
+      "pageTitle": "GoalTrack",
+      "reminders": {
+        "checkboxTitle": "Activer les notifications de rappel",
+        "setTimeLabel": "Fixez une heure pour que nous vous rappelions votre objectif une fois par jour.",
+        "daily": {
+          "setTimeLabel": "Fixez une heure pour que nous vous rappelions votre objectif une fois par jour."
+        },
+        "weekly": {
+          "setTimeLabel": "Fixez une heure pour que nous vous rappelions votre objectif une fois par semaine et choisissez un jour spécifique."
+        },
+        "monthly": {
+          "setTimeLabel": "Fixez une heure et choisissez une date sur le calendrier pour vous rappeler de votre objectif une fois par mois."
+        },
+        "errors": {
+          "time": "Veuillez sélectionner une heure.",
+          "week": "Veuillez sélectionner un jour de la semaine.",
+          "month": "Veuillez sélectionner une date pour le mois."
+        }
+      },
+      "savePhoneButton": "Enregistrer le téléphone"
+    },
+    "tabs": {
+      "yourProgressTitile": "<hide>Vos</hide> progrès",
+      "habitStreaksTitile": "Stries d'habitudes"
+    },
+    "periodOptions": {
+      "daily": "Tous les jours",
+      "monthly": "Mensuel",
+      "weekly": "Hebdomadaire",
+      "all": "Tout"
+    },
+    "ctaDescription": "Créez votre premier objectif dès maintenant !",
+    "habitsList": {
+      "emptyMessage": "Vos séquences d'habitudes sont actuellement vides",
+      "noActivities": "Aucune activité enregistrée pour votre objectif.",
+      "daysPassedSingle": "1 jour",
+      "daysPassedFew": "{count} jours",
+      "daysPassedMany": "{count} jours",
+      "goalMessage": "Vous êtes \"{goalName}\" depuis {daysPassed} d'affilée!",
+      "keepUpTheGreatWork": "Continuez comme ça!"
+    },
+    "description": "Suivez vos progrès vers vos objectifs avec notre outil de suivi de réussite personnalisable.",
+    "title": "GoalTrack",
+    "priorityOptions": {
+      "high": "Haut",
+      "medium": "Moyen",
+      "low": "Faible"
+    },
+    "channelsOptions": {
+      "email": "E-mail",
+      "sms": "SMS (texte)",
+      "whatsapp": "WhatsApp",
+      "telegram": "Télégramme",
+      "push": "Notification push"
+    },
+    "goalLabel": "But",
+    "priorityLabel": "Priorité",
+    "progressLabel": "Progrès",
+    "feelingLabel": "Sentiment",
+    "logActivityButton": "Journal d'activité",
+    "goalDurationMessage": "*L’objectif est fixé sur 90 jours, ce qui donne un délai clair pour se concentrer sur la réalisation de progrès."
+  },
+  "Onboarding": {
+    "privacyStep": {
+      "title": "Protection des Données & Confidentialité",
+      "description1": "Pour améliorer votre coaching, nous utilisons des informations de base vous concernant comme votre nom, email, langue et vos préférences. Vous gardez toujours le contrôle sur ce que vous partagez et pouvez demander à consulter, corriger ou supprimer vos données à tout moment. Nous conseillons de ne pas partager de détails privés tels que la santé, la religion ou l'origine ethnique, sauf si vous pensez qu'ils contribuent à vos objectifs. En partageant ces informations, vous acceptez que nous les utilisions.",
+      "description2": "<bold>Vos Droits :</bold> Sous le RGPD et les lois applicables de protection des données, vous pouvez refuser à tout moment, demander vos données ou demander la suppression complète de votre compte et conversations. Nous respectons les règles de confidentialité les plus strictes et ne vendrons jamais vos informations. Contactez-nous à support@coachbot.ai pour toute demande de données ou question."
+    },
+    "transcriptSharing": {
+      "title": "Consentement pour le Partage de Données",
+      "fullAccessText": "Seuls des aperçus de haut niveau sont partagés—comme les sujets de conversation et votre fréquence d'engagement—tandis que vos messages réels et détails personnels restent privés.",
+      "description": "Vos conversations et données d'utilisation restent entièrement confidentielles—personne n'a accès à vos chats. Pour plus de détails, veuillez consulter les <privacy>Conditions Générales.</privacy>",
+      "anknowledgeCheckbox": "Je consens au traitement de mes données pour améliorer mon expérience de coaching IA tout en gardant mes conversations confidentielles",
+      "nextButtonText": "Accepter & Continuer",
+      "transcriptTypeLabel": "Partage de Transcription :",
+      "fullAccessLabel": "Entièrement Confidentiel"
+    },
+    "firstStep": {
+      "contentText": "Bienvenue dans Votre Expérience de Coaching IA Personnalisée !",
+      "title": "Quelques Points Importants à Savoir",
+      "description1": "<bold>Ceci est un coach basé sur l'IA, pas un humain.</bold> Je soutiens votre croissance avec des questions fondées sur des preuves et des invitations à la réflexion alignées avec l'éthique mondiale du coaching. Je suis disponible 24h/24 et 7j/7 pour guider votre auto-réflexion et stimuler votre développement.",
+      "description2": "<bold>Important :</bold> Je ne remplace pas la thérapie professionnelle, les conseils juridiques, médicaux ou financiers. Les systèmes d'IA peuvent faire des erreurs, utilisez donc toujours votre propre jugement. J'ai été formé selon les plus hauts standards de coaching pour la qualité et l'éthique afin de tirer le meilleur parti de nos sessions."
+    },
+    "profileStep": {
+      "title": "Personalisieren Sie Ihr Profil",
+      "description1": "Machen Sie Ihr Profil wirklich persönlich, indem Sie ein Foto hinzufügen und den Namen auswählen, den CoachBot verwenden wird, um mit Ihnen zu sprechen, für ein persönlicheres Erlebnis.",
+      "description2": "Wählen Sie Ihre bevorzugte Sprache, fügen Sie Ihre Handynummer hinzu, um Erinnerungen zu erhalten, und vieles mehr, da wir weitere Personalisierungsoptionen hinzufügen."
+    },
+    "lifeVisionStep": {
+      "title": "Los geht's!",
+      "description1": "<bold>LifeVision™ Bewertung:</bold> Diese einminütige Selbsteinschätzung hilft Ihnen, sich selbst besser kennenzulernen. Sie können sie zur persönlichen Reflexion oder als Ausgangspunkt für Ihren Coaching-Weg nutzen."
+    },
+    "goalStep": {
+      "title": "Starten Sie Ihr Ziel",
+      "description1": "<bold>GoalTrack™:</bold> Brauchen Sie Inspiration, um Ziele zu setzen? Überlegen Sie, wo Sie in 5 Jahren sein möchten, und arbeiten Sie dann mit CoachBot rückwärts, um einen Plan zu erstellen.",
+      "description2": "Setzen Sie persönliche Ziele, verfolgen Sie Ihre Fortschritte und behalten Sie Ihre Prioritäten im Auge, um maximalen Erfolg zu erzielen."
+    },
+    "chatStep": {
+      "title": "Choisissez Vos Canaux Préférés",
+      "description1": "<bold>Navigateur :</bold> Passez du texte, à l'enregistrement vocal ou aux appels vocaux, que vous soyez sur votre téléphone, tablette ou ordinateur.",
+      "description2": "<bold>WhatsApp :</bold> Si vous voulez pouvoir démarrer ou continuer votre conversation sur WhatsApp, connectez-le maintenant!",
+      "description3": "<bold>SMS/iMessage :</bold> Vous préférez les messages texte simples? Connectez-vous via SMS pour envoyer et recevoir des messages directement depuis votre téléphone!",
+      "descriptionSMS": "Note : Votre créateur CoachBot peut ne pas avoir activé tous les canaux ci-dessus. Si vous ne voyez pas vos options préférées, veuillez contacter support@coachbot.ai"
+    },
+    "lastStepButton": "Connecter WhatsApp",
+    "lastStepSMSButton": "Connecter SMS",
+    "lastStepChatButton": "Discutez ici",
+    "skipButton": "Passer le tutoriel",
+    "declineButton": "Refuser",
+    "nextButton": "Suivant",
+    "messengerModal": {
+      "title": "Connecter {messengerName}",
+      "content": "Veuillez entrer votre numéro de téléphone pour connecter CoachBot à {messengerName}. Ce n'est qu'alors que nous pourrons enregistrer vos discussions sur {messengerName} et vous offrir une expérience de coaching sans faille.",
+      "reminder": "J'accepte de recevoir des rappels par SMS et des notifications liées à mes objectifs de la part de CoachBot, si nécessaire, pour soutenir mon expérience de coaching.",
+      "button": "C'est parti"
+    }
+  },
+  "DatePicker": {
+    "days": "Dim,Lun,Mar,Mer,Jeu,Ven,Sam",
+    "setDate": "Définir la date",
+    "cancelButton": "Annuler",
+    "saveButton": "Sauvegarder"
+  },
+  "GrowthNavigator": {
+    "pageTitle": "Navigateur de croissance",
+    "pageSubTitle": "Votre espace de coaching alimenté par l'IA - connectez-vous avec des coachs sélectionnés pour naviguer dans votre parcours de croissance.",
+    "controlPanel": {
+      "inputPlaceholder": "Saisissez l'URL de AI Coach pour l'ajouter.",
+      "addAssistantButton": "Ajouter un coach IA",
+      "sortOptions": {
+        "0": "Récent",
+        "1": "Par Conversations",
+        "2": "Par les utilisateurs",
+        "3": "Par note",
+        "4": "Par commentaires"
+      }
+    },
+    "assistantCard": {
+      "activatedLabel": "Activé",
+      "deactivatedLabel": "Désactivé",
+      "createdByLabel": "Créé par",
+      "modeDescription": {
+        "default": "Si vous décidez de partager des informations sensibles, vous avez explicitement accepté de le faire - détails dans<link> Conditions générales</link> .",
+        "live": "Entièrement confidentiel et protégé au-delà des balises suivantes - détails dans<link> Conditions générales</link> .",
+        "training": "Partagé avec le créateur pour des informations et des améliorations - détails dans<link> Conditions générales</link> ."
+      },
+      "statisticscards": {
+        "rate": "Taux:",
+        "unlockNowButton": "Déverrouiller maintenant",
+        "conversations": "Conversations",
+        "users": "Utilisateurs",
+        "rating": "Notation:"
+      },
+      "descriptionPopover": {
+        "label": "Voir la description complète",
+        "title": "Description complète"
+      },
+      "shareModal": {
+        "title": "Partager AI Coach",
+        "subTitle": "Choisissez une plateforme pour partager ou copier le lien"
+      }
+    }
+  }
+}

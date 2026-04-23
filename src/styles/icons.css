@@ -1,0 +1,930 @@
+[class^='cbi-'],
+[class*=' cbi-'] {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: var(--font-cbi) !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input[type='password'] {
+  font-family: var(--font-cbi) !important;
+}
+
+.cbi-receipt-2 .path1:before {
+  content: "\e9ba";
+  opacity: 0.4;
+}
+.cbi-receipt-2 .path2:before {
+  content: "\e9bb";
+  margin-left: -1em;
+}
+.cbi-receipt-2 .path3:before {
+  content: "\e9bc";
+  margin-left: -1em;
+}
+.cbi-receipt-2 .path4:before {
+  content: "\e9bd";
+  margin-left: -1em;
+}
+.cbi-receipt-2 .path5:before {
+  content: "\e9be";
+  margin-left: -1em;
+}
+.cbi-lock .path1:before {
+  content: "\e9bf";
+}
+.cbi-lock .path2:before {
+  content: "\e9c0";
+  margin-left: -0.98046875em;
+  opacity: 0.4;
+}
+.cbi-lock .path3:before {
+  content: "\e9c1";
+  margin-left: -0.98046875em;
+}
+.cbi-lock .path4:before {
+  content: "\e9c2";
+  margin-left: -0.98046875em;
+}
+.cbi-lock .path5:before {
+  content: "\e9c3";
+  margin-left: -0.98046875em;
+}
+
+.cbi-people:before {
+  content: "\e9b4";
+}
+
+.cbi-add-square:before {
+  content: "\e9b7";
+}
+
+.cbi-cpu-menu:before {
+  content: "\e9b5";
+}
+
+.cbi-double-messages:before {
+  content: "\e9b6";
+}
+
+.cbi-share-network:before {
+  content: "\e9b8";
+}
+
+.cbi-star-empty:before {
+  content: "\e9b9";
+}
+
+.cbi-arrow-down:before {
+  content: "\e9b1";
+}
+
+.cbi-cpu-filled:before {
+  content: "\e9b2";
+}
+
+.cbi-setting-2:before {
+  content: "\e9b3";
+}
+
+.cbi-cpu-empty:before {
+  content: "\e9b0";
+}
+
+.cbi-link:before {
+  content: "\e9ae";
+}
+
+.cbi-send-2:before {
+  content: "\e9af";
+}
+
+.cbi-setting-3 .path1:before {
+  content: "\e9a7";
+  opacity: 0.4;
+}
+
+.cbi-setting-3 .path2:before {
+  content: "\e9a8";
+  margin-left: -0.98046875em;
+}
+
+.cbi-setting-3 .path3:before {
+  content: "\e9a9";
+  margin-left: -0.98046875em;
+}
+
+.cbi-setting-3 .path4:before {
+  content: "\e9aa";
+  margin-left: -0.98046875em;
+}
+
+.cbi-setting-3 .path5:before {
+  content: "\e9ab";
+  margin-left: -0.98046875em;
+}
+
+.cbi-setting-3 .path6:before {
+  content: "\e9ac";
+  margin-left: -0.98046875em;
+}
+
+.cbi-setting-3 .path7:before {
+  content: "\e9ad";
+  margin-left: -0.98046875em;
+}
+
+.cbi-chart-simple:before {
+  content: "\e98c";
+}
+
+.cbi-cpu .path1:before {
+  content: "\e98d";
+  opacity: 0.4;
+}
+
+.cbi-cpu .path2:before {
+  content: "\e98e";
+  margin-left: -0.98046875em;
+}
+
+.cbi-cpu .path3:before {
+  content: "\e98f";
+  margin-left: -0.98046875em;
+}
+
+.cbi-cpu .path4:before {
+  content: "\e990";
+  margin-left: -0.98046875em;
+}
+
+.cbi-cpu .path5:before {
+  content: "\e991";
+  margin-left: -0.98046875em;
+}
+
+.cbi-cpu .path6:before {
+  content: "\e992";
+  margin-left: -0.98046875em;
+}
+
+.cbi-cpu .path7:before {
+  content: "\e993";
+  margin-left: -0.98046875em;
+}
+
+.cbi-cpu .path8:before {
+  content: "\e994";
+  margin-left: -0.98046875em;
+}
+
+.cbi-cpu .path9:before {
+  content: "\e995";
+  margin-left: -0.98046875em;
+}
+
+.cbi-cpu .path10:before {
+  content: "\e996";
+  margin-left: -0.98046875em;
+}
+
+.cbi-cpu .path11:before {
+  content: "\e997";
+  margin-left: -0.98046875em;
+}
+
+.cbi-cpu .path12:before {
+  content: "\e998";
+  margin-left: -0.98046875em;
+}
+
+.cbi-cpu .path13:before {
+  content: "\e999";
+  margin-left: -0.98046875em;
+}
+
+.cbi-cpu .path14:before {
+  content: "\e99a";
+  margin-left: -0.98046875em;
+}
+
+.cbi-cup:before {
+  content: "\e99b";
+}
+
+.cbi-global .path1:before {
+  content: "\e99c";
+  opacity: 0.4;
+}
+
+.cbi-global .path2:before {
+  content: "\e99d";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+
+.cbi-global .path3:before {
+  content: "\e99e";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+
+.cbi-global .path4:before {
+  content: "\e99f";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+
+.cbi-global .path5:before {
+  content: "\e9a0";
+  margin-left: -1em;
+}
+
+.cbi-global .path6:before {
+  content: "\e9a1";
+  margin-left: -1em;
+}
+
+.cbi-global .path7:before {
+  content: "\e9a2";
+  margin-left: -1em;
+}
+
+.cbi-global .path8:before {
+  content: "\e9a3";
+  margin-left: -1em;
+}
+
+.cbi-global .path9:before {
+  content: "\e9a4";
+  margin-left: -1em;
+}
+
+.cbi-keyboard:before {
+  content: "\e9a5";
+}
+
+.cbi-tag-user:before {
+  content: "\e9a6";
+}
+
+.cbi-add:before {
+  content: "\e98b";
+}
+
+.cbi-cards:before {
+  content: "\e974";
+}
+
+.cbi-send:before {
+  content: "\e972";
+}
+
+.cbi-calendar:before {
+  content: "\e973";
+}
+
+.cbi-arrow-up:before {
+  content: "\e96f";
+}
+
+.cbi-heart:before {
+  content: "\e96e";
+}
+
+.cbi-paperclip:before {
+  content: "\e96d";
+}
+
+.cbi-search-normal:before {
+  content: "\e96c";
+}
+
+.cbi-moon:before {
+  content: '\e970';
+}
+
+.cbi-sun:before {
+  content: '\e971';
+}
+
+.cbi-calendar:before {
+  content: '\e969';
+}
+
+.cbi-clock:before {
+  content: '\e96b';
+}
+
+.cbi-youtube:before {
+  content: '\e967';
+}
+
+.cbi-keyboard-down:before {
+  content: '\e965';
+}
+
+.cbi-voice-cricle:before {
+  content: '\e966';
+}
+
+.cbi-dislike:before {
+  content: '\e963';
+}
+
+.cbi-like:before {
+  content: '\e964';
+}
+
+.cbi-support .path1:before {
+  content: '\e922';
+  opacity: 0.4;
+}
+
+.cbi-support .path2:before {
+  content: '\e923';
+  margin-left: -1.01953125em;
+}
+
+.cbi-support .path3:before {
+  content: '\e924';
+  margin-left: -1.01953125em;
+}
+
+.cbi-like-shapes .path1:before {
+  content: '\e925';
+  opacity: 0.4;
+}
+
+.cbi-like-shapes .path2:before {
+  content: '\e926';
+  margin-left: -1.01953125em;
+}
+
+.cbi-login:before {
+  content: '\e927';
+}
+
+.cbi-ranking .path1:before {
+  content: '\e955';
+  opacity: 0.4;
+}
+
+.cbi-ranking .path2:before {
+  content: '\e956';
+  margin-left: -1em;
+}
+
+.cbi-ranking .path3:before {
+  content: '\e957';
+  margin-left: -1em;
+  opacity: 0.4;
+}
+
+.cbi-ranking .path4:before {
+  content: '\e958';
+  margin-left: -1em;
+}
+
+.cbi-shield-tick .path1:before {
+  content: '\e959';
+  opacity: 0.4;
+}
+
+.cbi-shield-tick .path2:before {
+  content: '\e95a';
+  margin-left: -1em;
+}
+
+.cbi-status-up .path1:before {
+  content: '\e95b';
+  opacity: 0.4;
+}
+
+.cbi-status-up .path2:before {
+  content: '\e95c';
+  margin-left: -1.01953125em;
+}
+
+.cbi-status-up .path3:before {
+  content: '\e95d';
+  margin-left: -1.01953125em;
+}
+
+.cbi-status-up .path4:before {
+  content: '\e95e';
+  margin-left: -1.01953125em;
+}
+
+.cbi-status-up .path5:before {
+  content: '\e95f';
+  margin-left: -1.01953125em;
+}
+
+.cbi-user-tick .path1:before {
+  content: '\e960';
+}
+
+.cbi-user-tick .path2:before {
+  content: '\e961';
+  margin-left: -1.01953125em;
+  opacity: 0.4;
+}
+
+.cbi-user-tick .path3:before {
+  content: '\e962';
+  margin-left: -1.01953125em;
+}
+
+.cbi-pc-protection:before {
+  content: '\e953';
+}
+
+.cbi-person-voice:before {
+  content: '\e954';
+}
+
+.cbi-social-instagram:before {
+  content: '\e952';
+}
+
+.cbi-social-facebook:before {
+  content: '\e94e';
+}
+
+.cbi-social-linkedin:before {
+  content: '\e94f';
+}
+
+.cbi-social-messenger:before {
+  content: '\e950';
+}
+
+.cbi-social-whatsapp:before {
+  content: '\e951';
+}
+
+.cbi-social-x:before {
+  content: '\e968';
+}
+
+.cbi-message-notif .path1:before {
+  content: '\e94c';
+  color: rgb(58, 190, 184);
+}
+
+.cbi-message-notif .path2:before {
+  content: '\e94d';
+  margin-left: -0.9599609375em;
+}
+
+.cbi-document-text:before {
+  content: '\e94b';
+}
+
+.cbi-tick-square:before {
+  content: '\e93c';
+}
+
+.cbi-flash-circle:before {
+  content: '\e93d';
+}
+
+.cbi-sms:before {
+  content: '\e93e';
+}
+
+.cbi-message-text:before {
+  content: '\e93f';
+}
+
+.cbi-whatsapp:before {
+  content: '\e940';
+}
+
+.cbi-notification-status-outline:before {
+  content: '\e941';
+}
+
+.cbi-telegram:before {
+  content: '\e942';
+}
+
+.cbi-003:before {
+  content: '\e943';
+  color: #f4796b;
+}
+
+.cbi-002:before {
+  content: '\e944';
+  color: #b6b6b6;
+}
+
+.cbi-001:before {
+  content: '\e945';
+  color: #3abeb8;
+}
+
+.cbi-calendar-day:before {
+  content: '\e946';
+}
+
+.cbi-calendar-edit:before {
+  content: '\e947';
+}
+
+.cbi-calendar-month:before {
+  content: '\e948';
+}
+
+.cbi-calendar-week:before {
+  content: '\e949';
+}
+
+.cbi-setting:before {
+  content: '\e94a';
+}
+
+.cbi-share:before {
+  content: '\e93b';
+}
+
+.cbi-verify:before {
+  content: '\e939';
+}
+
+.cbi-arrow-right:before {
+  content: '\e93a';
+}
+
+.cbi-notification-status:before {
+  content: '\e938';
+}
+
+.cbi-love:before {
+  content: '\e935';
+  color: #c33f38;
+}
+
+.cbi-ukraine .path1:before {
+  content: '\e936';
+  color: rgb(255, 218, 68);
+}
+
+.cbi-ukraine .path2:before {
+  content: '\e937';
+  margin-left: -1em;
+  color: rgb(51, 138, 243);
+}
+
+.cbi-assesment:before {
+  content: '\e929';
+}
+
+.cbi-business:before {
+  content: '\e92a';
+}
+
+.cbi-family:before {
+  content: '\e92b';
+}
+
+.cbi-finance:before {
+  content: '\e92c';
+}
+
+.cbi-fun:before {
+  content: '\e92d';
+}
+
+.cbi-growth:before {
+  content: '\e92e';
+}
+
+.cbi-history:before {
+  content: '\e92f';
+}
+
+.cbi-insights-edit:before {
+  content: '\e930';
+}
+
+.cbi-physical:before {
+  content: '\e931';
+}
+
+.cbi-romance:before {
+  content: '\e932';
+}
+
+.cbi-star:before {
+  content: '\e933';
+}
+
+.cbi-survey:before {
+  content: '\e934';
+}
+
+.cbi-profile-delete:before {
+  content: '\e91f';
+}
+
+.cbi-tick-circle:before {
+  content: '\e928';
+}
+
+.cbi-coaches:before {
+  content: '\e923';
+}
+
+.cbi-dialogue:before {
+  content: '\e924';
+}
+
+.cbi-idea:before {
+  content: '\e925';
+}
+
+.cbi-shield:before {
+  content: '\e926';
+}
+
+.cbi-translator:before {
+  content: '\e927';
+}
+
+.cbi-info:before {
+  content: '\e96a';
+}
+
+.cbi-info-circle-fill:before {
+  content: '\e921';
+}
+
+.cbi-info-circle:before {
+  content: '\e920';
+}
+
+.cbi-cube-fill:before {
+  content: '\e90e';
+}
+
+.cbi-edit:before {
+  content: '\e910';
+}
+
+.cbi-textalign:before {
+  content: '\e913';
+}
+
+.cbi-mouse-circle:before {
+  content: '\e914';
+}
+
+.cbi-archive:before {
+  content: '\e915';
+}
+
+.cbi-logout:before {
+  content: '\e916';
+}
+
+.cbi-document-upload:before {
+  content: '\e917';
+}
+
+.cbi-trash:before {
+  content: '\e918';
+}
+
+.cbi-voice-loader:before {
+  content: '\e911';
+}
+
+.cbi-check:before {
+  content: '\e912';
+}
+
+.cbi-close-circle:before {
+  content: '\e90f';
+}
+
+.cbi-microphone:before {
+  content: '\e90d';
+}
+
+.cbi-expand:before {
+  content: '\e908';
+}
+
+.cbi-more:before {
+  content: '\e909';
+}
+
+.cbi-new-chat:before {
+  content: '\e90a';
+}
+
+.cbi-sms-edit:before {
+  content: '\e900';
+}
+
+.cbi-chart:before {
+  content: '\e902';
+}
+
+.cbi-cube:before {
+  content: '\e903';
+}
+
+.cbi-dashboard:before {
+  content: '\e904';
+}
+
+.cbi-health:before {
+  content: '\e905';
+}
+
+.cbi-message:before {
+  content: '\e906';
+}
+
+.cbi-user:before {
+  content: '\e907';
+}
+
+.cbi-user-square:before {
+  content: '\e90c';
+}
+
+.cbi-send-mesage:before {
+  content: '\e90b';
+}
+
+.cbi-visible-password:before {
+  content: '\e91a';
+}
+
+.cbi-unvisible-password-converted:before {
+  content: '\e91c';
+}
+
+.cbi-arrow-circle-down:before {
+  content: '\e91d';
+}
+
+.cbi-arrow-circle-up:before {
+  content: '\e91e';
+}
+
+.cbi-close-square:before {
+  content: '\e91b';
+}
+
+.cbi-hide-password:before {
+  content: '\2022';
+}
+
+.cbi-toggle-on:before {
+  content: '\e919';
+}
+
+.cbi-toggle-off:before {
+  content: '\e901';
+}
+
+.cbi-quotes:before {
+  content: '\e969';
+}
+
+/* German AI association badge */
+
+.cbi-german_ai_association .path1:before {
+  content: "\e975";
+  color: #000;
+}
+
+.cbi-german_ai_association .path2:before {
+  content: "\e976";
+  color: #d61f26;
+  margin-left: -7.8486328125em;
+}
+
+.cbi-german_ai_association .path3:before {
+  content: "\e977";
+  color: #f9e13b;
+  margin-left: -7.8486328125em;
+}
+
+.cbi-german_ai_association .path4:before {
+  content: "\e978";
+  margin-left: -7.8486328125em;
+}
+
+.cbi-german_ai_association .path5:before {
+  content: "\e979";
+  margin-left: -7.8486328125em;
+}
+
+.cbi-german_ai_association .path6:before {
+  content: "\e97a";
+  margin-left: -7.8486328125em;
+}
+
+.cbi-german_ai_association .path7:before {
+  content: "\e97b";
+  margin-left: -7.8486328125em;
+}
+
+.cbi-german_ai_association .path8:before {
+  content: "\e97c";
+  margin-left: -7.8486328125em;
+}
+
+.cbi-german_ai_association .path9:before {
+  content: "\e97d";
+  margin-left: -7.8486328125em;
+}
+
+.cbi-german_ai_association .path10:before {
+  content: "\e97e";
+  margin-left: -7.8486328125em;
+}
+
+.cbi-german_ai_association .path11:before {
+  content: "\e97f";
+  margin-left: -7.8486328125em;
+}
+
+.cbi-german_ai_association .path12:before {
+  content: "\e980";
+  margin-left: -7.8486328125em;
+}
+
+.cbi-german_ai_association .path13:before {
+  content: "\e981";
+  margin-left: -7.8486328125em;
+}
+
+.cbi-german_ai_association .path14:before {
+  content: "\e982";
+  margin-left: -7.8486328125em;
+}
+
+.cbi-german_ai_association .path15:before {
+  content: "\e983";
+  margin-left: -7.8486328125em;
+}
+
+.cbi-german_ai_association .path16:before {
+  content: "\e984";
+  margin-left: -7.8486328125em;
+}
+
+.cbi-german_ai_association .path17:before {
+  content: "\e985";
+  margin-left: -7.8486328125em;
+}
+
+.cbi-german_ai_association .path18:before {
+  content: "\e986";
+  margin-left: -7.8486328125em;
+}
+
+.cbi-german_ai_association .path19:before {
+  content: "\e987";
+  margin-left: -7.8486328125em;
+}
+
+.cbi-german_ai_association .path20:before {
+  content: "\e988";
+  margin-left: -7.8486328125em;
+}
+
+.cbi-german_ai_association .path21:before {
+  content: "\e989";
+  margin-left: -7.8486328125em;
+}
+
+.cbi-german_ai_association .path22:before {
+  content: "\e98a";
+  margin-left: -7.8486328125em;
+}
+
+/* German AI association badge */
+
+/* Format icons in showcase - make them theme-aware */
+.format-icon-wrapper svg path[fill="white"] {
+  fill: currentColor !important;
+}
