@@ -1,0 +1,256 @@
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["metrics", "postgresqlExtensions"]
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("POSTGRES_PRISMA_URL")
+  directUrl = env("POSTGRES_URL_NON_POOLING")
+}
+
+model Category {
+  id               String     @id @default(cuid())
+  name             String     @unique
+  instruction      String
+  image            String?
+  parentCategoryId String?
+  translateKey     String?
+  order            Int?       @default(1)
+  tooltipKey       String?
+  parentCategory   Category?  @relation("Subcategories", fields: [parentCategoryId], references: [id])
+  subcategories    Category[] @relation("Subcategories")
+  chats            Chat[]
+  Goal             Goal[]
+  Post             Post[]
+  goals            Goal[]     @relation("GoalCategories")
+}
+
+model Chat {
+  id            String    @id @default(cuid())
+  name          String
+  archived      Boolean?  @default(false)
+  userId        String
+  categoryId    String?
+  created_at    String
+  updated_at    String?
+  assistantId   String    @default("openAIAssistant")
+  stage         String    @default("n/a")
+  stageAnalysis Json?
+  category      Category? @relation(fields: [categoryId], references: [id])
+  user          User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  messages      Message[]
+}
+
+model User {
+  id                  String         @id
+  stripeId            String?        @unique
+  assistantId         String         @default("")
+  tokensCount         Int            @default(0)
+  limitExpirationDate DateTime       @default(now())
+  tokensLimit         Int            @default(999)
+  isFreePlan          Boolean        @default(true)
+  subscriptionId      String?
+  subscriptionName    String?
+  age                 String?
+  gender              String?
+  language            String?
+  whatsappId          String?        @unique
+  onboardingPassed    Boolean?       @default(false)
+  consentAccepted     Boolean?       @default(false)
+  newsletterSignup    Boolean?
+  newsletterSignupId  String?
+  textNotification    Boolean?       @default(false)
+  registrationDate    DateTime       @default(now())
+  assistantsIds       String[]
+  chats               Chat[]
+  Goal                Goal[]
+  assistants          Assistant[]    @relation("UserAssistants")
+  subscriptions       Subscription[]
+  sms_phone           String?        @db.VarChar(20) 
+}
+
+model LifeInsightsHistory {
+  id         String    @id @default(cuid())
+  title      String
+  imageUrl   String
+  areas      Json
+  created_at DateTime
+  updated_at DateTime?
+  userId     String
+}
+
+model Goal {
+  id                  String     @id @default(cuid())
+  name                String
+  categoryId          String?
+  userId              String
+  priority            Int        @default(2)
+  period              String
+  counter             Int        @default(0)
+  activities          Json
+  completed           Boolean?
+  dateCreated         DateTime   @default(now())
+  notificationChannel String?
+  category            Category?  @relation(fields: [categoryId], references: [id])
+  user                User       @relation(fields: [userId], references: [id], onDelete: Cascade)
+  reminder            Reminder?  @relation("GoalReminder")
+  categories          Category[] @relation("GoalCategories")
+}
+
+model Message {
+  id         String   @id @default(cuid())
+  content    String
+  thumb      Thumb    @default(unknown)
+  star       Boolean?
+  flagged    Boolean?
+  chatId     String
+  role       Role
+  created_at DateTime @default(now())
+  type       String?
+  stage      String?
+  chat       Chat     @relation(fields: [chatId], references: [id], onDelete: Cascade)
+}
+
+model Post {
+  id           String    @id @default(cuid())
+  title        String
+  metaTitle    String
+  description  String
+  imageUrl     String
+  postingDate  String
+  contentUrl   String
+  readingTime  Int
+  author       String?
+  categoryName String?
+  category     Category? @relation(fields: [categoryName], references: [name])
+}
+
+model Reminder {
+  id       String    @id @default(cuid())
+  userId   String
+  channels Json
+  period   String
+  time     String
+  timeZone String
+  weekDay  String?
+  monthDay DateTime?
+  sendDate DateTime?
+  goalId   String?   @unique
+  goal     Goal?     @relation("GoalReminder", fields: [goalId], references: [id], onDelete: Cascade)
+}
+
+model StudioSignup {
+  id                 String   @id @default(cuid())
+  firstName          String
+  lastName           String
+  email              String
+  yearsOfExperience  String
+  mostInterestedIn   String[]
+  challenge          String?
+  currentOperate     String[]
+  ageGroup           String?
+  linkedin           String?
+  otherProfiles      String?
+  activeClients      String?
+  monthlyRevenue     String?
+  marketingAgreement Boolean?
+  created_at         DateTime @default(now()) @db.Date
+  createdAt          String?
+  primaryProfession  String[]
+  areaOfFocus        String[]
+}
+
+model Subscription {
+  id             String           @id @default(cuid())
+  customerId     String
+  subscriptionId String           @unique
+  productId      String?
+  type           SubscriptionType
+  status         String
+  name           String?
+  isFreePlan     Boolean?
+  trialDays      String?
+  created_at     DateTime         @default(now())
+  updated_at     DateTime         @updatedAt
+  canceled_at    DateTime?
+  interval       SubscriptionInterval?
+  userId         String
+  user           User             @relation(fields: [userId], references: [id], onDelete: Cascade)
+  assistantId    String?          @db.Uuid
+  assistant      Assistant?       @relation(fields: [assistantId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, type, assistantId])
+  @@index([userId])
+  @@index([type, assistantId])
+}
+
+model AssistantConfiguration {
+  id                 String                       @id @default(cuid())
+  instructions       String
+  tokenLimitPeriod   TokenLimitPeriod             @default(monthly)
+  tokensLimit        Int?
+  tokensCount        Int                          @default(0)
+  firstStage         String
+  mode               String
+  usageType          AssistantUsageType?
+  communicationModes AssistantCommunicationMode[]
+  assistantId        String                       @unique @db.Uuid
+  assistant          Assistant                    @relation(fields: [assistantId], references: [id], onDelete: Cascade)
+
+  @@index([assistantId], map: "idx_assistant_configuration_id")
+}
+
+model Assistant {
+  id            String                  @id @default(cuid()) @db.Uuid
+  isDefault     Boolean
+  isDeleted     Boolean?                @default(false)
+  name          String
+  description   String
+  authorData    Json
+  meta          Json?
+  price         Json?
+  added_at      DateTime?               @default(now()) @db.Timestamptz(6)
+  last_sync_at  DateTime?               @updatedAt @db.Timestamptz(6)
+  users         User[]                  @relation("UserAssistants")
+  subscriptions Subscription[]
+  configuration AssistantConfiguration?
+}
+
+enum Thumb {
+  like
+  dislike
+  unknown
+}
+
+enum Role {
+  user
+  assistant
+}
+
+enum AssistantCommunicationMode {
+  text_to_text
+  speech_to_text
+  voice_to_voice
+  video_avatar
+}
+
+enum AssistantUsageType {
+  general
+  unique
+}
+
+enum TokenLimitPeriod {
+  daily
+  monthly
+}
+
+enum SubscriptionType {
+  app
+  assistant
+}
+
+enum SubscriptionInterval {
+  month
+  year
+}
